@@ -8,7 +8,7 @@ import Map from "./Comp/Map";
 function App() {
   return (
     <div className="App">
-      <List/>
+      <Map />
     </div>
   );
 }
