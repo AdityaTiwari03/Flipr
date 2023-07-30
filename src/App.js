@@ -5,10 +5,12 @@ import SignupPage from "./Comp/Signup";
 import LoginPage from "./Comp/Login";
 import List from "./Comp/List";
 import Map from "./Comp/Map";
+import LocationDetails from "./Comp/LocationDetails";
+import ChangeDetail from "./Comp/ChangeDetails";
 function App() {
   return (
     <div className="App">
-      <Map />
+      <LocationDetails />
     </div>
   );
 }
